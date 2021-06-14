@@ -12,8 +12,8 @@
     text-decoration: none;
     color: black;
     margin:0 15px;
-    & .fa-chevron-down{
-        font-size: 13px;
+    & i{
+        @include iconSize
     }
 }
 .navbutton{

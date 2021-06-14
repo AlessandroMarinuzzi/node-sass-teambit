@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: auto;
 }
 
@@ -26,7 +26,7 @@
   color: black;
   margin: 0 15px;
 }
-.navlink .fa-chevron-down {
+.navlink i {
   font-size: 13px;
 }
 
@@ -41,4 +41,55 @@
 .navbutton img {
   width: 15px;
   vertical-align: middle;
+}
+
+.jumbotron {
+  padding: 3rem 0;
+  display: flex;
+}
+
+.jumbotext {
+  width: 50%;
+}
+.jumbotext h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+.jumbotext p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.jumbotext button {
+  background-color: #2c4792;
+  color: white;
+  padding: 0.4rem;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.jumbotext button img {
+  width: 15px;
+  vertical-align: middle;
+}
+.jumbotext i {
+  font-size: 13px;
+}
+
+.jumbopic {
+  width: 50%;
+}
+.jumbopic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 0;
+}
+
+main {
+  height: 500px;
+  background-color: blueviolet;
 }

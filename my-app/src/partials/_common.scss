@@ -5,7 +5,21 @@
 }
 
 .container{
-    width: 1200px;
+    width: 1170px;
     margin: auto;
+}
+
+@mixin button {
+    background-color: $darkBlue;
+    color: $white;
+    padding: 0.4rem;
+    border: 1px solid $darkBlue;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+@mixin iconSize {
+    font-size: 13px;
+    
 }
 
