@@ -7,9 +7,52 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #57402c;
 }
 
 .container {
   width: 80%;
   margin: auto;
+}
+
+.whole_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+.whole_navbar .navbar {
+  display: flex;
+  list-style: none;
+}
+.whole_navbar .navbar .navItem {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.whole_navbar .navbar .navItem:first-child > i {
+  margin-left: 5px;
+}
+.whole_navbar .navbar .navItem:last-child > button {
+  background-color: transparent;
+  border-style: none;
+  border: 1px solid #2c4792;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.whole_navbar .navbar .navItem:last-child > button img {
+  width: 15px;
+  margin-right: 5px;
+}
+.whole_navbar .navbar .navItem:last-child > button a {
+  color: #2c4792;
+}
+.whole_navbar .navbar .navItem a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bolder;
+  color: #57402c;
 }
