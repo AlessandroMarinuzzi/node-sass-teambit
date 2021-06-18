@@ -1,0 +1,35 @@
+.jumbotron{
+    padding: 60px 0;
+    display: flex;
+
+    h1{
+        font-size: $h1Size;
+    };
+
+    p{
+        font-size: $paragraphSize;
+        margin: 15px 0;
+    };
+
+    .jumbo_buttons{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        button{
+            @include button;
+        };
+        span{
+            margin: 0 5px;
+        };
+    };
+
+    a{
+        font-size: $linkSize;
+        text-decoration: none;
+        color: $textMainColor;
+    }
+
+    >img{
+        max-width: 50%;
+    };
+}
